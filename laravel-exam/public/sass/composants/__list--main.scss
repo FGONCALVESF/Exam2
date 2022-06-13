@@ -1,0 +1,50 @@
+.custom-list-container {
+
+    padding: 2rem 8rem;
+
+    .custom-card {
+
+        margin: 2rem 0rem;
+
+        .custom-btn-group {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+            width: 100%;
+
+            .btn-custom-danger {
+
+                margin-left: 1rem;
+
+            }
+        }
+
+    }
+        .custom-header-card {
+
+            background: rgb(84,84,84);
+            background: linear-gradient(191deg, rgba(84,84,84,1) 0%, rgba(0,0,0,1) 100%);
+            color: whitesmoke;
+
+        }
+
+        .page-link {
+
+            color: black;
+        }
+
+        .page-item.active .page-link {
+            z-index: 1;
+            color: #fff;
+            background-color: black;
+            border-color: black; 
+            color: whitesmoke;
+        }
+
+        .pagination {
+
+            padding: 1rem 0rem;
+        }
+}

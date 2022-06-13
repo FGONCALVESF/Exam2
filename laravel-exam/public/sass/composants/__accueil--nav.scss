@@ -1,0 +1,41 @@
+.custom-nav {
+
+    padding: 2rem;
+    background: rgb(84,84,84);
+    background: linear-gradient(191deg, rgba(84,84,84,1) 0%, rgba(0,0,0,1) 100%);
+    -webkit-box-shadow: 1px 5px 12px 4px rgba(0,0,0,0.62); 
+    box-shadow: 1px 5px 12px 4px rgba(0,0,0,0.62);
+
+    .nav-title-custom {
+
+        font-size: 2rem;
+        text-decoration: none;
+        color: whitesmoke;
+
+    }
+
+    .link-nav-custom {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        .nav-item {
+
+            padding: 0rem 1rem;
+
+            a {
+
+                font-size: 1.2rem;
+                color: whitesmoke;
+
+            } 
+            
+            a:hover {
+
+            color: gray;
+
+            }
+        }
+    }
+}
